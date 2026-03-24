@@ -1,0 +1,43 @@
+# Wails specific
+build/bin/
+frontend/dist/
+frontend/node_modules/
+frontend/package.json.md5
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Go coverage and test output
+*.out
+*.out.tmp
+coverage.out
+test_report.txt
+benchmark_report.txt
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Go workspace file
+go.work
+
+# OS Specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
